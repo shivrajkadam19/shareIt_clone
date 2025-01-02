@@ -4,6 +4,7 @@ import { bottomTabStyles } from '../../styles/bottomTabStyle';
 import Icon from '../global/Icon';
 import { navigate } from '../../utils/NavigationUtil';
 import QRScannerModel from '../modals/QRScannerModel';
+import QRGenerateModal from '../modals/QRGenerateModal';
 
 const AbsoluteQRBottom = () => {
     const [isVisible, setVisible] = useState(false);
